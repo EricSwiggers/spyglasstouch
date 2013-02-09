@@ -1,3 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
+.spyglass{
+
+	}
+
+.bigImage{
+	position: absolute;
+	background-color:#FFF;
+	}
