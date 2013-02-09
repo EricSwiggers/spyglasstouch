@@ -1,6 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
 
+.accelerate{
+	-webkit-transform: translatez(0);
+    -moz-transform: translatez(0);
+    -ms-transform: translatez(0);
+    -o-transform: translatez(0);
+    transform: translatez(0);
+	}
+
 .spyglass{
 
 	}
