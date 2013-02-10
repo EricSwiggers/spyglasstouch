@@ -16,4 +16,5 @@
 .bigImage{
 	position: absolute;
 	background-color:#FFF;
+	border-radius:50%;
 	}
