@@ -13,6 +13,8 @@ $(selector).spyglass({property: value, otherProperty: value});
 Properties
 
 width
+=====
+
 The width of the spyglass window.
 Accepts: px, %, calculated value.
 
