@@ -3,7 +3,7 @@ spyGlassTouch
 
 This is my answer to a question on a jQuery Mobile LinkedIn.
 
-This spyGlass plugin is a simple inner zoom made for touch screens.  Think of your finger as a magnifying glass.
+This spyGlass plugin is a simple inner zoom made for touch screens.  Think of your finger as a magnifying glass.  You can view a demo [here](http://www.thierryblais.com/spyGlass/index.html).
 
 To initialize the plugin:
 
