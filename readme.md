@@ -7,31 +7,36 @@ This spyGlass plugin is a simple inner zoom made for touch screens.  Think of yo
 
 To initialize the plugin:
 
-$(selector).spyglass();
+>$(selector).spyglass();
 
 The plugin comes with some default settings which can be configured with a standard object literal:
 
-$(selector).spyglass({property: value, otherProperty: value});
+>$(selector).spyglass({property: value, otherProperty: value});
 
 Properties
 
-*width*
+width
+-----
 The width of the spyglass window.
 Accepts: px, %, calculated value.
 
 height
+------
 The height of the spyglass window.
 Accepts: px, %, calculated value.
 
 xDistance
+---------
 The horizontal distance from your touch.
 Accepts: px, calculated value.
 
 yDistance
+---------
 The vertical distance from your touch.
 Accepts: px, calculated value.
 
 zoom
+----
 The magnification of the image
 Accepts: positive integer
 
