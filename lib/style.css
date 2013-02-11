@@ -13,11 +13,10 @@
 
 	}
 	
-.bigImage{
-	border-radius:50%;
-	width:350px !important;
-	height:350px !important;
-	}
+.bigImage{border-radius:50%;width:350px !important;	height:350px !important;}
 @media screen and (max-width: 768px){
-	.bigImage{border-radius:50%; width: 40%; height: 40%}
+	.bigImage{border-radius:50%; width: 200px !important; height: 200px !important;}
+	}
+@media screen and (max-width: 450px){
+	.bigImage{border-radius:50%; width: 125px !important; height: 125px !important;}
 	}
