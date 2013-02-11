@@ -15,6 +15,11 @@ The plugin comes with some default settings which can be configured with a stand
 
 Properties
 
+addClass
+--------
+Classes to add to the zoom element so you can style the window youself or give it a responsive class
+Accepts: string containing class names.
+
 width
 -----
 The width of the spyglass window.
