@@ -17,7 +17,8 @@ Properties
 
 addClass
 --------
-Classes to add to the zoom element so you can style the window youself or give it a responsive class
+Classes to add to the zoom element so you can style the window youself or give it a responsive class 
+*You must add !important to definitions of width and height to override defaults with custom classes*
 Accepts: string containing class names.
 
 width
