@@ -24,9 +24,11 @@
 <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
 <script type="text/javascript" src="lib/spyglasstouch.js"></script>
 <script type="text/javascript">
-$(document).ready( function(event){
-	$('.spyglass').spyglass({addClass: 'bigImage accelerate'});
+$(document).on('pageshow', function(event){
+	$thisPage = $(this); 
+	$thisPage.find('.spyglass').spyglass({addClass: 'bigImage accelerate'});
 	});
+
 </script>
 <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
 </body>
